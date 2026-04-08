@@ -4,7 +4,7 @@ import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { Card } from '../components/ui/Card';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://bhel-internshipproject-t3ur.onrender.com';
 
 export const SignupPage: React.FC = () => {
   const navigate = useNavigate();
