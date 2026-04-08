@@ -42,7 +42,7 @@ export const AdminDashboard: React.FC = () => {
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (!token) return;
-    fetch('http://localhost:5000/api/users', {
+    fetch('https://bhel-internshipproject-t3ur.onrender.com', {
       headers: { 'Authorization': `Bearer ${token}` }
     })
       .then(res => res.json())
