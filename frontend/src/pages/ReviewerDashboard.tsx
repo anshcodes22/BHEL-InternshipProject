@@ -6,7 +6,7 @@ import { Button } from '../components/ui/Button';
 import { Modal } from '../components/ui/Modal';
 import { useNavigate } from 'react-router-dom';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://bhel-internshipproject-t3ur.onrender.com';
 
 interface AuditEntry {
   action: string;
